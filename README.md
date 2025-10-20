@@ -1,12 +1,16 @@
-# React + Vite
+ReBooked - A platform for buying and selling used books
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Students often face high costs for textbooks and lack reliable ways to buy, sell, or trade used books on campus.
+* Existing methods are disorganized and insecure.
+* ReBooked is a secure, centralized web platform for students to buy, sell, or trade academic books within their college community.
+* Promotes sustainability and reduces textbook costs through second-hand listings.
+* Users can securely register and add book details: title, author, course, price.
+* Supports real-time search and filtering of listings for easy navigation.
+* Built with React.js and Supabase, using React Context API and hooks for smooth navigation and session management.
 
-Currently, two official plugins are available:
+Tech Stack:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+● Frontend: React.js 
+● Database: Supabase 
+● Authentication: Supabase Auth
+● State Management: React Context API + Hooks
