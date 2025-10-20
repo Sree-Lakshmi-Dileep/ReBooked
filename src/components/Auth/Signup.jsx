@@ -40,6 +40,7 @@ export default function Signup() {
         <h2 className="signup-title">Register</h2>
         <form className="signup-form" onSubmit={handleSignup}>
           <input
+          
             className="signup-input"
             type="text"
             placeholder="Name"
